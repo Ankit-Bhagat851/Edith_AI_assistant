@@ -4,25 +4,25 @@ The Voice Assistant is programmed in python using speech recognition models. The
 
 The various tasks and automations we programmed in this application are as follows :
 
-Sending an email.
-Send whatsapp message
-Date and time.
-Searching anything on google.
-Extracting information of any topic from wikipedia.
-Playing youtube videos.
-Fetching news on any topic.
-Read out text from the clipboard.
-Tells about covid cases.
-Gives information about live weather.
-Takes a screenshot and stores it in a folder.
-Remember sentences and store them in a text file.
-Generate a random strong password.
-Flips a coin and rolls a dice.
-Tell a joke.
+1. Sending an email.
+2. Send whatsapp message
+3. Date and time.
+4. Searching anything on google.
+5. Extracting information of any topic from wikipedia.
+6. Playing youtube videos.
+7. Fetching news on any topic.
+8. Read out text from the clipboard.
+9. Tells about covid cases.
+10. Gives information about live weather.
+11. Takes a screenshot and stores it in a folder.
+12. Remember sentences and store them in a text file.
+13. Generate a random strong password.
+14. Flips a coin and rolls a dice.
+15. Tell a joke.
 
 The voice assistant application uses API’s and web automation tools to fetch the data from different websites and collects them in a json file or a list data type and after applying slicing and indexing, the proper output which is required by the user is automated with voice commands. For email, it uses smtp library through a port and sends a message after authenticating the account being used to send emails. 
-
 The voice assistant catches the exceptions and performs smoothly without any trouble to the user. 
+
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
 we will use an HC-05 Bluetooth module and a smartphone to send voice commands to control LED and servo motors to receive voice commands. We have made an application which we will be using to send voice commands. The speech is received by a microphone and processed by the voice module using voice command. The voice command is given by using mobile to the Bluetooth which has certain features like controlling servo motor, LED on and off.
